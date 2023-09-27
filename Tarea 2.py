@@ -19,7 +19,7 @@ def ordenar_fila_con_quicksort(matriz, fila):
     matriz[fila] = quicksort(matriz[fila])
 
 
-fila_a_ordenar = 1
+fila_a_ordenar = 2
 ordenar_fila_con_quicksort(matriz, fila_a_ordenar)
 for fila in matriz:
-print(fila)
+    print(fila)
