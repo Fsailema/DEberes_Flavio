@@ -1,5 +1,5 @@
 
-def calcular_descuento(precio, bono_descuento, descuento=0.10):
+def calcular_descuento(precio, bono_descuento, descuento=.10):
     valor_descuento = precio * descuento
     precio_final = precio - valor_descuento - bono_descuento
     return precio_final

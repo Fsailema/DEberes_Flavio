@@ -1,5 +1,5 @@
 
- #crearemos una funcion llamada "Calcular_descuentos"
+ #Crearemos una funcion llamada "Calcular_descuentos"
 
 def calcular_descuento(precio, descuento=.10):
    valor_descuento = precio * descuento
