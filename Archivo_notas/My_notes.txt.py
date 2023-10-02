@@ -30,6 +30,8 @@ for l in lineas:
 
 file.close()
 
+#para escribir un archivo nuevo desde python
+
 contenido = "fútbol, películas, pasear"
 nueva_ruta = "my_notes.txt2"
 file = open(nueva_ruta, 'w')
