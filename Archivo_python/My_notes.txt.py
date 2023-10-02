@@ -28,4 +28,11 @@ with open('my_notes.txt', 'r') as archivo:
 for l in lineas:
     print(l.replace('\n', ''))
 
+file.close()
 
+contenido = "fútbol, películas, pasear"
+nueva_ruta = "my_notes.txt2"
+file = open(nueva_ruta, 'w')
+file.write(contenido)
+
+file.close()
